@@ -1,4 +1,3 @@
-import 'package:finance_app/data/first_data.dart';
 import 'package:finance_app/data/model/add_data.dart';
 import 'package:finance_app/data/utilty.dart';
 import 'package:finance_app/utils/build_context_extensions.dart';
@@ -86,7 +85,8 @@ class _HomePageState extends State<HomePage> {
       leading: ClipRRect(
         borderRadius: BorderRadius.circular(5),
         child: Image.asset(
-          '${geter()[index].image}',
+          // '${geter()[index].image}',
+          'assets/${history.name}.png',
           height: 40,
         ),
       ),
